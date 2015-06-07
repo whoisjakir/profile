@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+    color: #333;
+    font-family: 'Raleway';
+    font-size: 14px;
+    line-height: 26px;
+	background: url('../images/intro1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+		-moz-background-size: cover;
+			-o-background-size: cover;
+				background-size: cover;
+	overflow: visible;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+}
+
+::-moz-selection { background: #1abc9c; }
+::-webkit-selection { background: #1abc9c; }
+
+a,
+.logo span{
+    color:#1abc9c;
+}

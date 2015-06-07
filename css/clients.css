@@ -1,0 +1,94 @@
+#clients{
+	background:#F3F3F3;
+	padding:50px 0;
+}
+
+.achieve_area h4{
+	margin-bottom:30px;
+}
+
+.achieve_area-content{
+	padding:50px 0;
+}
+
+.achieve_area-content p{
+	color:rgba(0, 0, 0, .89);
+	padding-bottom:5px;
+	margin:0;
+}
+
+.achieve_area-content span{
+	color:rgba(18, 186, 173, 1);
+}
+
+.achieve_area-lft span{
+	padding-right:8px;
+}
+
+.achieve_area-mid {
+	text-align:center;
+}
+
+
+.achieve_area-mid p{
+	margin-bottom:50px;
+}
+
+.achieve_area-mid .diagram {
+	display: inline-block;
+}
+
+.achieve_area-mid h5{
+	font-weight:700;
+	margin-top:20px;
+}
+
+.achieve_area-content .client{
+	height:220px;
+	width:100%;
+	margin-left:-40px;
+	border:0px solid #FFFFFF;
+	border-radius:5px;
+	background:transparent;
+}
+
+.achieve_area-content .client p{
+	width:200px;
+	padding:15px;
+	background:rgba(0, 0, 0, .88);
+	border-radius:5px;
+	text-align:left;
+	color:rgba(255, 255, 255, .9);
+	text-decoration:none;
+	margin:0;
+	box-shadow: 0 5px 2px rgba(0,0,0,0.1);
+	position:relative;
+	transition: background-color 0.6s linear;
+}
+
+.achieve_area-content .client p:after { 
+  content: " "; 
+  height: 0; 
+  width: 0; 
+  position: absolute; 
+  top: 100%; 
+  border: solid transparent; 
+  border-top-color: rgba(0, 0, 0, .88);
+  border-left-color:rgba(0, 0, 0, .88);
+  border-width: 10px; 
+  left: 10%; 
+} 
+
+.achieve_area-content .client a{
+	margin-top:15px;
+	margin-left:-80px;
+	text-decoration:none;
+	color:#5F6A70;
+	font-weight:700;
+	font-size:14px;
+}
+
+#clients-carousel {
+    text-align: center;
+    cursor: -webkit-grab;
+}

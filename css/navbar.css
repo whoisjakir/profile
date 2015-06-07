@@ -1,0 +1,122 @@
+
+.site-logo a.logo {
+    display: block;
+    text-decoration: none;
+    padding: 20px 40px 20px 40px;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+a.affix-logo {
+    display: block;
+    text-decoration: none;
+    padding: 17px 40px 23px 40px;
+    color: #555;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+#navigation {
+    position: relative;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background:rgba(0, 0, 0, 1);
+    /*border-bottom:1px solid rgba(0, 0, 0, 0.3);*/
+    
+    width: 100%;
+    height: 70px;
+    /*box-shadow: 0px 1px 4px rgba(0,0,0, 0.1);*/
+    
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    z-index: 1010;
+}
+
+
+.affix {
+    background: rgba(255, 255, 255, 0.96);
+    position: fixed;
+    top: 0;
+	left:0;
+    width: 100%;
+    height: 60px;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 0 3px rgba(0, 0, 0, 0.08) inset;
+		-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 0 3px rgba(0, 0, 0, 0.08) inset;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 0 3px rgba(0, 0, 0, 0.08) inset;
+    -webkit-transition: all 0.7s fade;
+		-moz-transition: all 0.7s fade;
+			transition: all 0.7s;
+    z-index: 1400;
+}
+.affix .nav li a {
+    color: #333333;
+}
+
+.site-logo {
+    float: left;
+    position: relative;
+}
+
+.mini-nav-button {
+    color: #fff;
+    display: none;
+    float: right;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    /*right:15px;*/
+    
+    top: 40px;
+    margin-right: 25px;
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.nav-menu {
+    font-size: 13px;
+    text-transform: uppercase;
+    float: right;
+    /*padding-right:40px;*/
+    
+    height: 100%;
+}
+.nav-menu ul.nav {
+    height: 100%;
+    width: 100%;
+    margin-right: 40px;
+}
+
+
+.nav li {
+    /*display: inline-block;*/
+    
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.nav li a {
+    display: block;
+    height: 100%;
+    line-height: 15px;
+    color: #e7e7e7;
+    padding: 28px 15px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.nav li.current a,.nav li.current a:hover,  .nav li a:hover,.nav li a:focus{
+    background: transparent;
+    color:#1abc9c;
+}
