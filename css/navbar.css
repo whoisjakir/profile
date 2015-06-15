@@ -109,6 +109,7 @@ a.affix-logo {
     display: block;
     height: 100%;
     line-height: 15px;
+	letter-spacing:2px;
     color: #e7e7e7;
     padding: 28px 15px;
     -webkit-transition: all 0.3s;
