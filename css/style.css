@@ -227,9 +227,9 @@ hr {
 }
 .about p {
     font-family: Crimson Text;
-    font-style: italic;
     font-size: 17px;
     padding-top: 22px;
+	text-align:justify;
 }
 .img-desc-about {
     position: relative;
@@ -1393,8 +1393,34 @@ div.meter span:before {
 	background:rgba(255, 255, 255, 1);
 }
 
+.service_area-top p{
+	font-size: 20px;
+	width: 65%;
+	margin: 0 auto;
+	line-height: 1.7;
+	padding-bottom:30px;
+}
+
 .features-item{
-	padding:30px 0px;
+	padding:30px 20px;
+}
+
+.features-item:hover{
+	background:rgba(0, 0, 0, .6);
+	border-radius:5px;
+	color:rgba(255, 255, 255, .8);
+}
+
+.features-item:hover h3{
+	color:rgba(255, 255, 255, 1);
+}
+
+.features-item:hover p{
+	color:rgba(255, 255, 255, .7);
+}
+
+.features-item:hover i{
+	color:rgba(26, 188, 156, 1);
 }
 
 .features-item i{
@@ -1758,13 +1784,6 @@ Typography
 
 .bg-dark a:hover, .bg-dark a:focus {
 	color: #fff;
-}
-
-
-.font-alt {
-	font-family: "Roboto Condensed", sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 2px;
 }
 
 .font-serif {
