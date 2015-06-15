@@ -268,7 +268,7 @@ blockquote {
 .font-alt {
 	font-family: "Roboto Condensed", sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing:1px;
 }
 
 .font-serif {
@@ -529,7 +529,7 @@ Sections
 	font-weight: 400;
 	font-size: 30px;
 	color: #111;
-	margin: 0 0 70px;
+	margin: 0 0 50px;
 }
 
 .module-subtitle {
